@@ -2,12 +2,19 @@
 <html>
     <head>
         <meta charset="UTF-8">
-
+    
         <title>Javelin Web Designs</title>
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
+
+        <div id="main">
+            <button class="openbtn" onclick="openNav()">
+            &#9776;
+            </button>
+        </div>
+        
         <h1 class="title">javelin web designs</h1>
         
         <header>
@@ -39,5 +46,13 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, eaque harum. Nobis ipsam magni labore?</p>
             </div>
         </div>
+
+        <div id="mySidebar" class="sidebar">
+         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+         <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">About</a>
+         <a href="#">Services</a>
+         <a href="#">Contact</a>
+        </div>
+        
     </body>
 </html>
